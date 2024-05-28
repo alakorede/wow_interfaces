@@ -1,0 +1,6 @@
+## Interface: 90005
+## Title: I_Hear_You |cff00aa006.0|r
+## Notes: Plays sounds when you receive messages in a group. |cffB90A04Created by: Audedit |r
+## Version: 6.1
+
+I_Hear_You_Party.lua

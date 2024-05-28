@@ -1,0 +1,33 @@
+## Interface: 100200
+
+## Title: QuestPointer
+## Author: Kemayo
+## Notes: Point to quest POIs on your minimap
+## Version: v30
+## X-Category: Quest, Map
+## X-Email: kemayo@gmail.com
+## X-Website: http://davidlynch.org/wow/
+## X-Curse-Project-ID: 22106
+## X-Wago-ID: 0mNwYLKo
+
+## IconAtlas: quest-important-turnin
+## SavedVariables: QuestPointerDB
+## SavedVariablesPerCharacter: QuestPointerDBPC
+
+## OptionalDeps: tekDebug, tekErr, TomTom, HereBeDragons-1.0
+
+## LoadOnDemand: 0
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+## X-LoadOn-Slash: /questpointer
+
+embeds.xml
+
+#template\Locale.lua
+template\Database.lua
+template\UtilityFunctions.lua
+template\EventDispatcher.lua
+
+QuestPointer.lua
+TomTom.lua
+Config.lua

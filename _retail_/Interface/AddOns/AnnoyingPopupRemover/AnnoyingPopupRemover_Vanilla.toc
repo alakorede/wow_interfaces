@@ -1,0 +1,53 @@
+## Interface: 11502
+## Title: Annoying Popup Remover
+## Version: v20.1.3-release
+## Author: KyrosKrane Sylvanblade
+## Notes: Removes multiple annoying confirmation popups throughout the game.
+## IconTexture: Interface\AddOns\AnnoyingPopupRemover\Media\thumbup.blp
+
+## SavedVariablesPerCharacter: APR_DB
+## OptionalDeps: Blizzard_VoidStorageUI, Blizzard_GarrisonTemplates
+
+## X-Curse-Project-ID: 93154
+## X-WoWI-ID: 23631
+## X-Wago-ID: 0mKOLPGx
+
+# Linked from externals
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+
+Libs\AceConsole-3.0\AceConsole-3.0.lua
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua
+Libs\AceConfigDialog-3.0\AceConfigDialog-3.0.lua
+Libs\AceConfigCmd-3.0\AceConfigCmd-3.0.lua
+
+Libs\AddonUtilities\Utilities.lua
+
+# In this add-on
+Init.lua
+Localization.lua
+Localization_frFR.lua
+Init_Post_Locale.lua
+
+module_loot.lua
+module_roll.lua
+module_void.lua
+module_vendor.lua
+module_buy_alt_currency.lua
+module_buy_nonrefundable.lua
+module_equip.lua
+module_equip_tradable.lua
+module_equip_refund.lua
+module_mail.lua
+module_delete.lua
+module_innkeeper.lua
+module_quest.lua
+module_undercut.lua
+module_dragonriding.lua
+module_workorder.lua
+module_actioncam.lua
+module_gossip.lua
+module_followers.lua
+
+AnnoyingPopupRemover.lua

@@ -1,0 +1,65 @@
+## Interface: 100105
+## Author: Galaxy
+## Title: Roth UI
+## Notes: Galaxy's oUF layout with Diablo flavor!
+## RequiredDeps:
+## SavedVariables: Roth_UI_DB_GLOB, ShinyBuffsDB, PhanxFontDB, Roth_UI_DB
+## SavedVariablesPerCharacter: Roth_UI_DB_CHAR, ShinyBuffsPCDB
+
+embeds\oUF\oUF.xml
+embeds\rLib\rLib.xml
+
+Libs\Ace3\Ace3.xml
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\LibSharedMedia-3.0\lib.xml
+Libs\AceGUI-3.0-SharedMediaWidgets\widget.xml
+
+init.lua
+config.lua
+charspecific.lua
+
+embeds\Roth_Config\Roth_Config.lua
+embeds\rChat\rChat.xml
+embeds\rActionBarStyler\rActionBar.xml
+embeds\rButtonTemplate\rButton.xml
+embeds\rButtonTemplate_Roth\rButton_Roth.xml
+embeds\rMinimap\rMinimap.xml
+embeds\rNamePlates\rNamePlates.xml
+embeds\rInfoStrings\rInfo.xml
+embeds\rRaidManager\rManager.xml
+embeds\rTooltip\rTooltip.xml
+embeds\tullaRange\tulla.xml
+embeds\Roth_ShinyBuffs\shinybuff.xml
+embeds\rObjectiveTracker\core.lua
+embeds\RothFont\font.xml
+
+modules\oUF_AuraWatch.lua
+modules\oUF_PetHappiness.lua
+modules\oUF_ComboPoints.lua
+modules\oUF_Experience.lua
+modules\oUF_Reputation.lua
+modules\oUF_Smooth.lua
+
+core\db.lua
+core\panel.lua
+core\slashcmd.lua
+core\lib.lua
+core\tags.lua
+core\bars.lua
+core\units.lua
+core\mainmenu.lua
+
+
+units\target.lua
+units\targettarget.lua
+units\pet.lua
+units\focus.lua
+units\pettarget.lua
+units\focustarget.lua
+units\party.lua
+units\raid.lua
+units\boss.lua
+units\player.lua

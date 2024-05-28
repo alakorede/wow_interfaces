@@ -1,0 +1,6 @@
+## Interface: 100207
+## Author: Lohkin
+## Version: 10.2.7
+## Title: eAlign|cffffffffUpdated |r
+## Notes: A simple alignment grid.  Use |cffffd700/align|r to toggle on and off.
+eAlignUpdated.lua

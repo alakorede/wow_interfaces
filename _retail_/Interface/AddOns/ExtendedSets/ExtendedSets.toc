@@ -1,0 +1,32 @@
+## Interface: 100207
+## Title: Extended Transmog Sets
+## Notes: Extends the transmogrify and collection windows to show sets that you can transmog but that are not shown by default.
+## Author: Mattsta
+## Version: 3.9.1
+## SavedVariables: ExS_Settings, ExS_HiddenSets, ExS_Weapon_HiddenSets
+## SavedVariablesPerCharacter: ExS_Favorites, ExS_Weapon_Favorites
+
+Libs\LibStub\LibStub.lua
+libs\LibDropDown\embed.xml
+
+ExtendedSets.lua
+ExtendedSetsDB\BfA.lua
+ExtendedSetsDB\SL.lua
+ExtendedSetsDB\Legion.lua
+ExtendedSetsDB\WoD.lua
+ExtendedSetsDB\MoP.lua
+ExtendedSetsDB\Cata.lua
+ExtendedSetsDB\WotLK.lua
+ExtendedSetsDB\BC.lua
+ExtendedSetsDB\Classic.lua
+ExtendedSetsDB\DF.lua
+
+ExtendedSetsDB\Misc.lua
+
+ExtendedSets_AH.lua
+
+ExtendedSets_Weapons.lua
+ExtendedSetsDB\SL_weapons.lua
+ExtendedSetsDB\Legion_weapons.lua
+ExtendedSetsDB\DF_weapons.lua
+ExtendedSetsDB\MoP_weapons.lua
